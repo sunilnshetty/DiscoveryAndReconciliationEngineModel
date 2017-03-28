@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:getManagedElementRequest
+	xmlns:tns="http://www.tmforum.org/mtop/mri/xsd/mer/v1" xmlns:tns1="http://www.tmforum.org/mtop/nrb/xsd/cri/v1"
+	xmlns:tns10="http://www.tmforum.org/mtop/nra/xsd/ituArc/v1" xmlns:tns2="http://www.tmforum.org/mtop/fmw/xsd/coi/v1"
+	xmlns:tns3="http://www.tmforum.org/mtop/fmw/xsd/nam/v1" xmlns:tns4="http://www.tmforum.org/mtop/fmw/xsd/gen/v1"
+	xmlns:tns5="http://www.tmforum.org/mtop/nrb/xsd/itu/v1" xmlns:tns6="http://www.tmforum.org/mtop/fmw/xsd/msg/v1"
+	xmlns:tns7="http://www.tmforum.org/mtop/fmw/xsd/hdr/v1" xmlns:tns8="http://www.tmforum.org/mtop/nrf/xsd/me/v1"
+	xmlns:tns9="http://www.tmforum.org/mtop/nrb/xsd/lay/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tmforum.org/mtop/mri/xsd/mer/v1 ../../../../../main/resource/ManageResourceInventory/IIS/xsd/ManagedElementRetrievalMessages.xsd ">
+	<tns:meRef>
+		<tns3:rdn>
+			<tns3:type>tns3:type</tns3:type>
+			<tns3:value>tns3:value</tns3:value>
+		</tns3:rdn>
+	</tns:meRef>
+</tns:getManagedElementRequest>

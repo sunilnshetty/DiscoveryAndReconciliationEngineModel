@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:getAllManagementDomainsResponse xmlns:tns="http://www.tmforum.org/mtop/mri/xsd/mdr/v1" xmlns:tns1="http://www.tmforum.org/mtop/fmw/xsd/msg/v1" xmlns:tns2="http://www.tmforum.org/mtop/fmw/xsd/hdr/v1" xmlns:tns3="http://www.tmforum.org/mtop/fmw/xsd/gen/v1" xmlns:tns4="http://www.tmforum.org/mtop/fmw/xsd/nam/v1" xmlns:tns5="http://www.tmforum.org/mtop/fmw/xsd/md/v1" xmlns:tns6="http://www.tmforum.org/mtop/fmw/xsd/coi/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tmforum.org/mtop/mri/xsd/mdr/v1 ManagementDomainRetrievalMessages.xsd ">
+  <tns:mdList>
+    <tns5:md>
+      <tns6:name>
+        <tns4:rdn>
+          <tns4:type>tns4:type</tns4:type>
+          <tns4:value>tns4:value</tns4:value>
+        </tns4:rdn>
+      </tns6:name>
+      <tns6:userLabel>tns6:userLabel</tns6:userLabel>
+      <tns6:discoveredName>tns6:discoveredName</tns6:discoveredName>
+      <tns6:namingOs>tns6:namingOs</tns6:namingOs>
+      <tns6:owner>tns6:owner</tns6:owner>
+      <tns6:aliasNameList>
+        <tns3:alias>
+          <tns3:aliasName>tns3:aliasName</tns3:aliasName>
+          <tns3:aliasValue>tns3:aliasValue</tns3:aliasValue>
+        </tns3:alias>
+      </tns6:aliasNameList>
+      <tns6:vendorExtensions/>
+    </tns5:md>
+  </tns:mdList>
+</tns:getAllManagementDomainsResponse>

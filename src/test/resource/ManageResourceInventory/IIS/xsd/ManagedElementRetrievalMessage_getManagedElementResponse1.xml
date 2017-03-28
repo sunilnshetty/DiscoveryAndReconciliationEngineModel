@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:getManagedElementResponse
+	xmlns:tns="http://www.tmforum.org/mtop/mri/xsd/mer/v1" xmlns:tns1="http://www.tmforum.org/mtop/nrb/xsd/cri/v1"
+	xmlns:tns10="http://www.tmforum.org/mtop/nra/xsd/ituArc/v1" xmlns:tns2="http://www.tmforum.org/mtop/fmw/xsd/coi/v1"
+	xmlns:tns3="http://www.tmforum.org/mtop/fmw/xsd/nam/v1" xmlns:tns4="http://www.tmforum.org/mtop/fmw/xsd/gen/v1"
+	xmlns:tns5="http://www.tmforum.org/mtop/nrb/xsd/itu/v1" xmlns:tns6="http://www.tmforum.org/mtop/fmw/xsd/msg/v1"
+	xmlns:tns7="http://www.tmforum.org/mtop/fmw/xsd/hdr/v1" xmlns:tns8="http://www.tmforum.org/mtop/nrf/xsd/me/v1"
+	xmlns:tns9="http://www.tmforum.org/mtop/nrb/xsd/lay/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tmforum.org/mtop/mri/xsd/mer/v1 ../../../../../main/resource/ManageResourceInventory/IIS/xsd/ManagedElementRetrievalMessages.xsd ">
+	<tns:me>
+		<tns2:name>
+			<tns3:rdn>
+				<tns3:type>tns3:type</tns3:type>
+				<tns3:value>tns3:value</tns3:value>
+			</tns3:rdn>
+		</tns2:name>
+		<tns2:userLabel>tns2:userLabel</tns2:userLabel>
+		<tns2:discoveredName>tns2:discoveredName</tns2:discoveredName>
+		<tns2:namingOs>tns2:namingOs</tns2:namingOs>
+		<tns2:owner>tns2:owner</tns2:owner>
+		<tns2:aliasNameList>
+			<tns4:alias>
+				<tns4:aliasName>tns4:aliasName</tns4:aliasName>
+				<tns4:aliasValue>tns4:aliasValue</tns4:aliasValue>
+			</tns4:alias>
+		</tns2:aliasNameList>
+		<tns2:vendorExtensions />
+		<tns1:source qualifier="">NETWORK_ME</tns1:source>
+		<tns1:networkAccessDomain>tns1:networkAccessDomain</tns1:networkAccessDomain>
+		<tns1:meiAttributes>
+			<tns4:neTime>2001-01-01</tns4:neTime>
+			<tns4:eventIndication>tns4:eventIndication</tns4:eventIndication>
+		</tns1:meiAttributes>
+		<tns1:resourceState extension="" overlap=""
+			qualifier="">VENDOR_EXT</tns1:resourceState>
+		<tns1:ituStateAndStatusList>
+			<tns5:x721.OperationalState>DISABLED</tns5:x721.OperationalState>
+			<tns5:x721.AdministrativeState>LOCKED</tns5:x721.AdministrativeState>
+			<tns5:x721.UsageState>IDLE</tns5:x721.UsageState>
+			<tns5:x721.AvailabilityStatus></tns5:x721.AvailabilityStatus>
+			<tns5:x721.ControlStatus></tns5:x721.ControlStatus>
+			<tns5:m3100.HolderStatus>HOLDER_EMPTY</tns5:m3100.HolderStatus>
+			<tns5:m3100.CircuitPackType>tns5:m3100.CircuitPackType</tns5:m3100.CircuitPackType>
+			<tns5:x721.Unkownstatus>true</tns5:x721.Unkownstatus>
+			<tns5:x721.State>
+				<tns5:X721.OperationalState>DISABLED</tns5:X721.OperationalState>
+				<tns5:X721.AdministrativeState>LOCKED</tns5:X721.AdministrativeState>
+				<tns5:X721.UsageState>IDLE</tns5:X721.UsageState>
+				<tns5:X721.AvailabilityStatus></tns5:X721.AvailabilityStatus>
+				<tns5:X721.ControlStatus></tns5:X721.ControlStatus>
+				<tns5:M3100.HolderStatus>HOLDER_EMPTY</tns5:M3100.HolderStatus>
+				<tns5:X721.Unkownstatus>true</tns5:X721.Unkownstatus>
+			</tns5:x721.State>
+		</tns1:ituStateAndStatusList>
+		<tns8:location>tns8:location</tns8:location>
+		<tns8:manufacturer>tns8:manufacturer</tns8:manufacturer>
+		<tns8:manufactureDate>2001-01-01</tns8:manufactureDate>
+		<tns8:productName>tns8:productName</tns8:productName>
+		<tns8:softwareVersion>tns8:softwareVersion</tns8:softwareVersion>
+		<tns8:isInSyncState>true</tns8:isInSyncState>
+		<tns8:supportedConnectionLayerRateList>
+			<tns9:layerRate extension="">VENDOR_EXT</tns9:layerRate>
+		</tns8:supportedConnectionLayerRateList>
+		<tns8:communicationState>CS_AVAILABLE</tns8:communicationState>
+		<tns8:asapRef>
+			<tns3:rdn>
+				<tns3:type>tns3:type</tns3:type>
+				<tns3:value>tns3:value</tns3:value>
+			</tns3:rdn>
+		</tns8:asapRef>
+		<tns8:ituArcStateAndStatusList>
+			<tns10:m3100.AlarmStatus>CLEARED</tns10:m3100.AlarmStatus>
+			<tns10:m3100.ArcState>ALM</tns10:m3100.ArcState>
+			<tns10:m3100.NALMTIInterval>NO_ADJUSTMENT</tns10:m3100.NALMTIInterval>
+			<tns10:m3100.NALMQIInterval>NO_ADJUSTMENT</tns10:m3100.NALMQIInterval>
+			<tns10:m3100.ArcQIStatus>NOT_APPLICABLE</tns10:m3100.ArcQIStatus>
+			<tns10:m3100.State>
+				<tns10:M3100.AlarmStatus>CLEARED</tns10:M3100.AlarmStatus>
+				<tns10:M3100.ArcState>ALM</tns10:M3100.ArcState>
+				<tns10:M3100.ArcQIStatus>NOT_APPLICABLE</tns10:M3100.ArcQIStatus>
+			</tns10:m3100.State>
+		</tns8:ituArcStateAndStatusList>
+	</tns:me>
+</tns:getManagedElementResponse>
