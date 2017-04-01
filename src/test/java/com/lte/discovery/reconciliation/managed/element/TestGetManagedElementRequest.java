@@ -1,18 +1,7 @@
 package com.lte.discovery.reconciliation.managed.element;
 
-import static org.junit.Assert.*;
 
-import java.io.File;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBElement;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-
-import org.junit.Test;
-
-public class TestGetManagedElementRequest {
+public class TestGetManagedElementRequest {/*
 
 	@Test
 	public void testGetAllManagedElementsRequest() {
@@ -102,4 +91,4 @@ public class TestGetManagedElementRequest {
 
 	}
 
-}
+*/}

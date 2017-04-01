@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/AdapterResponse"
+	xmlns:tns="http://www.example.org/AdapterResponse" xmlns:merm="http://www.tmforum.org/mtop/mri/xsd/mer/v1"
+	elementFormDefault="qualified">
+	<import namespace="http://www.tmforum.org/mtop/mri/xsd/mer/v1"
+		schemaLocation="ManagedElementRetrievalMessages.xsd" />
+	<element name="adapterResponse">
+		<complexType>
+			<sequence>
+				<element name="networkElements" type="merm:MultipleMeObjectsResponseType"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

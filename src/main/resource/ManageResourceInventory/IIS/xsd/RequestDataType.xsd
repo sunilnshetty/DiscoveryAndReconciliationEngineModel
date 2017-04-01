@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/RequestDataType"
+	xmlns:tns="http://www.example.org/RequestDataType" elementFormDefault="qualified">
+	<complexType name="RequestType">
+		<sequence>
+			<element name="host" type="string"></element>
+			<element name="port" type="int"></element>
+			<element name="userName" type="string"></element>
+			<element name="password" type="string"></element>
+			<element name="sourceFolder" type="string"></element>
+			<element name="destinationFolder" type="string"></element>
+		</sequence>
+	</complexType>
+</schema>
